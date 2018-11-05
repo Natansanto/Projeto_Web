@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Welcome to Foundation</title>
+
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+
+</head>
+
+<body>
+	<div class="row">
+		<div class="twelve columns">
+		<p align="center"><h2>Java para Web!</h2></p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="twelve columns">
+			<ul class="nav-bar">
+ 		 		<li class="active"><a href="/Sample3">Home</a></li>
+  				<li><a href="adiciona-livro.html">Adicionar Livro</a></li>
+  				<li><a href="listar-livros.jsp">Listar Livros</a></li>
+  				<li><a href="pesquisar-livros.jsp">Pesquisar Livros</a></li>
+  				<!--li><a href="#">Contact Us</a></li-->
+			</ul>
+			
+		</div>
+	</div>
+		
+	<div class="row">
+		<div class="twelve columns">
+			<div class="row">
+				<div class="eight columns">
+				<h4>Formulário de criação</h4>
+				<form action="adicionaLivro">
+				<!-- hide data form action="adicionaLivro" method="post" -->
+        Título: <input type="text" name="titulo" />
+        Autores <input type="text" name="autores" />
+        Gênero: <input type="text" name="genero" />
+        Ano:    <input type="number" name="ano"  />
+        Editora:<input type="text" name="editora"/>
+        	   <input type="submit" value="Gravar" />
+    </form>				
+				</div>
+		
+				<div class="four columns">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+		<hr />
+		
+		</div>
+	</div>
+</body>
+</html>
